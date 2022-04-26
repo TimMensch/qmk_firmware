@@ -38,7 +38,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* key matrix size
 ROWS = total count of rows for both sides - this is broken out accordingly in split.h
-COLS = number of cols per side which curently needs to be equal so there are blank columns for the left side in the split89.h file
+COLS = number of cols per side which currently needs to be equal so there are blank columns for the left side in the split89.h file
  */
 #define MATRIX_ROWS 12
 #define MATRIX_COLS 10
@@ -108,7 +108,7 @@ COLS = number of cols per side which curently needs to be equal so there are bla
 //#define MATRIX_HAS_GHOST
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-#define LOCKING_SUPPORT_ENABLE
+// #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
@@ -151,8 +151,8 @@ COLS = number of cols per side which curently needs to be equal so there are bla
 
 /* disable action features */
 //#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+#define NO_ACTION_TAPPING
+#define NO_ACTION_ONESHOT
 
 /* disable these deprecated features by default */
 #define NO_ACTION_MACRO
