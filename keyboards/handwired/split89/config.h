@@ -19,11 +19,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID    0xFEED
-#define PRODUCT_ID   0x0000
+#define VENDOR_ID    0xABCD
+#define PRODUCT_ID   0x1234
 #define DEVICE_VER   0x0001
-#define MANUFACTURER jurassic73
-#define PRODUCT      split89
+#define MANUFACTURER realmensch.org
+#define PRODUCT      dragon89
 
 /*
  * Keyboard Matrix Assignments
@@ -149,8 +149,11 @@ COLS = number of cols per side which currently needs to be equal so there are bl
 /* disable print */
 //#define NO_PRINT
 
-/* disable action features */
-//#define NO_ACTION_LAYER
+//#define LAYER_STATE_8BIT
+
+#define SPLIT_LAYER_STATE_ENABLE
+#undef NO_ACTION_LAYER
+
 #define NO_ACTION_TAPPING
 #define NO_ACTION_ONESHOT
 
