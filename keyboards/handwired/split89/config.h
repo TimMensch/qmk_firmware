@@ -70,12 +70,6 @@ COLS = number of cols per side which currently needs to be equal so there are bl
 #define LOCKING_RESYNC_ENABLE
 
 #define SPLIT_LAYER_STATE_ENABLE
-#undef NO_ACTION_LAYER
+#define STRICT_LAYER_RELEASE
 
-#define NO_ACTION_TAPPING
 #define NO_ACTION_ONESHOT
-
-/* disable these deprecated features by default */
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
-
