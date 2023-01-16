@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_MNXT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_MEDIA_PLAY_PAUSE,   KC_SLEP, KC_STOP, KC_WFWD,
         KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,           KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
         KC_NO, KC_NO, KC_NO, KC_CALC, KC_NO, KC_NO,         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_CALC,                                      KC_VOLU,
-        KC_NO, KC_TRNS, KC_NO, KC_NO, KC_MEDIA_PLAY_PAUSE,  KC_NO, KC_MENU, KC_TRNS, KC_TRNS, KC_RGUI,                              KC_MRWD, KC_VOLD, KC_MFFD
+        KC_NO, KC_TRNS, KC_NO, KC_NO, KC_MEDIA_PLAY_PAUSE,  KC_MEDIA_PLAY_PAUSE, KC_MENU, KC_TRNS, KC_TRNS, KC_RGUI,                              KC_MRWD, KC_VOLD, KC_MFFD
     )
 };
 
